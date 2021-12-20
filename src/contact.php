@@ -11,6 +11,10 @@
 </head>
 <body>
 
+  <!-- Navbar -->
+  <div id="navbar"></div>
+  <!-- End of Navbar -->
+
   <!-- GoogleMaps -->
   <iframe class="min-vh-50 w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3972.7512199504536!2d103.13602981404495!3d5.301464737633199!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31b7be521f626f6d%3A0x3696394ac71a3ad2!2sPustaka%20Ilmiah!5e0!3m2!1sen!2smy!4v1639968124196!5m2!1sen!2smy" loading="lazy"></iframe>
   <!-- End of GoogleMaps -->
@@ -119,6 +123,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   <script>
     $("#footer").load("footer.php"); 
+    $("#navbar").load("navbar.php"); 
   </script>
 </body>
 </html>

@@ -25,6 +25,10 @@
   background-color: #813533;
 }
 
+.text-maroon {
+  color: #813533;
+}
+
 .bg-grey-5b {
   background-color: #5b5b5b;
 }
@@ -45,4 +49,12 @@
 
 .btn:hover {
   background-color: #50211f !important;
+}
+
+.cart {
+  font-size: 1.5em;
+}
+
+.cart:hover {
+  color: #50211f !important;
 }
