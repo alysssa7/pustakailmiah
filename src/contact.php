@@ -93,12 +93,15 @@
         <h6>SEND US AN EMAIL</h6>
         <hr>
         <div class="w-100">
-          <label class="p-1" for="name">Your Name (required)</label>
-          <input class="w-100 p-2 shadow-sm" type="text" name="name" id="name" required>
-          <label class="p-1" for="email">Your Email (required)</label>
-          <input class="w-100 p-2 shadow-sm" type="text" name="email" id="email" required>
-          <label class="p-1" for="message">Your Message (required)</label>
-          <textarea class="w-100 p-2 shadow-sm" type="text" name="message" id="message" required></textarea>
+          <form>
+            <label class="p-1" for="name">Your Name (required)</label>
+            <input class="w-100 p-2 shadow-sm" type="text" name="name" id="name" required>
+            <label class="p-1" for="email">Your Email (required)</label>
+            <input class="w-100 p-2 shadow-sm" type="text" name="email" id="email" required>
+            <label class="p-1" for="message">Your Message (required)</label>
+            <textarea class="w-100 p-2 shadow-sm" type="text" name="message" id="message" required></textarea>
+            <button class="btn bg-maroon text-white">SUBMIT</button>
+          </form>
         </div>
         
       </div>
@@ -108,7 +111,7 @@
   </section>
   
   <hr>
-  
+
   <!-- Footer -->
   <div id="footer"></div>
   <!-- End of Footer -->

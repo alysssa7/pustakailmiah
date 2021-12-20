@@ -36,9 +36,13 @@
 .socmed .fab:hover,
 .socmed .far:hover,
 .news-link:hover {
-  color: #813533;
+  color: #813533 !important;
 }
 
 .payment-icon {
   font-size: 2.5em;
+}
+
+.btn:hover {
+  background-color: #50211f !important;
 }
