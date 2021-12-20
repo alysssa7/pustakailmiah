@@ -99,11 +99,11 @@
         <div class="w-100">
           <form>
             <label class="p-1" for="name">Your Name (required)</label>
-            <input class="w-100 p-2 shadow-sm" type="text" name="name" id="name" required>
+            <input class="w-100 p-2 shadow-sm form-control" type="text" name="name" id="name" required>
             <label class="p-1" for="email">Your Email (required)</label>
-            <input class="w-100 p-2 shadow-sm" type="text" name="email" id="email" required>
+            <input class="w-100 p-2 shadow-sm form-control" type="text" name="email" id="email" required>
             <label class="p-1" for="message">Your Message (required)</label>
-            <textarea class="w-100 p-2 shadow-sm" type="text" name="message" id="message" required></textarea>
+            <textarea class="w-100 p-2 shadow-sm form-control" type="text" name="message" id="message" required></textarea>
             <button class="btn bg-maroon text-white">SUBMIT</button>
           </form>
         </div>

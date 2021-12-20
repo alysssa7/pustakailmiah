@@ -197,7 +197,7 @@
             </h6>
             <hr>
             <form>
-              <input type="text" class="rounded-pill mb-2 p-1" name="email">
+              <input type="text" class="rounded-pill mb-2 p-1 form-control" name="email">
               <button class="btn bg-maroon rounded-pill p-2 text-light">Sign Up</button>
             </form>
           </div>
